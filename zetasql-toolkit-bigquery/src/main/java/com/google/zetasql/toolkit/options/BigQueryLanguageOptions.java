@@ -119,7 +119,8 @@ public class BigQueryLanguageOptions {
             LanguageFeature.FEATURE_V_1_4_REMOTE_MODEL,
             LanguageFeature.FEATURE_V_1_4_GROUPING_BUILTIN,
             LanguageFeature.FEATURE_V_1_4_GROUPING_SETS,
-            LanguageFeature.FEATURE_V_1_4_GROUP_BY_ALL));
+            LanguageFeature.FEATURE_V_1_4_GROUP_BY_ALL,
+            LanguageFeature.FEATURE_V_1_4_BARE_ARRAY_ACCESS));
 
     languageOptions.setSupportedStatementKinds(
         ImmutableSet.of(
